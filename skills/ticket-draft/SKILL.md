@@ -17,7 +17,7 @@ Use the evidence already available: the conversation, code, screenshots, API spe
 
 ```markdown
 ## Title
-[FE] <Action verb> <feature/change> in <module/page>
+[FE][<MMM YY>] <Action verb> <feature/change> in <module/page>
 
 ## Description
 <1–3 sentences: what needs to change, where, and why.>
@@ -39,7 +39,7 @@ Use the evidence already available: the conversation, code, screenshots, API spe
 
 ## Rules
 
-- **Title:** action-oriented, prefixed with `[FE]`. Add extra tags the team uses, e.g. a sprint tag like `[FE][NOV 26]`.
+- **Title:** action-oriented, prefixed with `[FE]` and a date tag for the current month and year: three-letter month in capitals plus the two-digit year, e.g. `[FE][NOV 26]` for November 2026. Take the date from the environment (system date or a time tool) rather than guessing; if it isn't available, ask. Drop the date tag only if the user asks.
 - **Scope of Work:** include only the bullets that apply. Each one is a concrete frontend task.
 - **Frontend only:** keep backend work out of scope. If the frontend depends on backend work (a missing endpoint or field), list it under Notes as a dependency, not as a task.
 - **Acceptance Criteria:** plain bullets, never checkboxes. Each criterion is observable and testable, covers the relevant loading/error/validation states, and includes that existing functionality is unaffected when that's a risk.

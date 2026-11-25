@@ -49,7 +49,7 @@ Use it when asked to "create a ticket" or "draft a ticket". The draft is returne
 - **Default format:** Title → Description → Scope of Work → Acceptance Criteria.
 - **Simple changes:** Title → Description → Acceptance Criteria.
 - **Notes / Out of Scope:** added only for exclusions, backend dependencies or items that still need verification.
-- **Titles:** `[FE]` prefix, plus any team tags such as `[FE][NOV 26]`.
+- **Titles:** `[FE]` plus a tag for the current month and year, e.g. `[FE][NOV 26]` for November 2026.
 - **Rules:** frontend scope only, backend work listed as dependencies, testable acceptance criteria, and no invented endpoints or requirements.
 
 ## resolve-conflicts
