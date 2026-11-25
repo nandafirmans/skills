@@ -1,5 +1,5 @@
 ---
-name: resolving-merge-conflicts
+name: resolve-conflicts
 description: "Use when you need to resolve an in-progress git merge/rebase/cherry-pick conflict. Resolves each hunk from both sides' intent, lints the changed files, stages them, then stops for approval before continuing."
 ---
 

@@ -20,7 +20,7 @@ npx skills add nandafirmans/skills --skill fe-structure
 |---|---|
 | [fe-structure](skills/fe-structure/SKILL.md) | Structure JS/TS frontend code: domain/feature folders with slices, a layered data layer, small query/mutation hooks with key factories, and small global stores. Works with React, Vue, Svelte and other frameworks. |
 | [ticket-draft](skills/ticket-draft/SKILL.md) | Draft a frontend ticket from findings, a bug report or a feature request: Title, Description, Scope of Work and Acceptance Criteria, without inventing requirements. |
-| [resolving-merge-conflicts](skills/resolving-merge-conflicts/SKILL.md) | Resolve an in-progress merge or rebase conflict hunk by hunk from each side's intent, lint the changed files, stage them and stop for approval before continuing. |
+| [resolve-conflicts](skills/resolve-conflicts/SKILL.md) | Resolve an in-progress merge or rebase conflict hunk by hunk from each side's intent, lint the changed files, stage them and stop for approval before continuing. |
 
 ## fe-structure at a glance
 
